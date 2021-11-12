@@ -84,6 +84,10 @@ class MainActivity : AppCompatActivity() {
             requestDataLauncher.launch(Intent(this@MainActivity, SecondActivity::class.java))
         }
 
+        findViewById<TextView>(R.id.tv_info4).setOnClickListener {
+            PermissionUtils.jumpPermissionPage(this@MainActivity)
+        }
+
         val searchView = findViewById<SearchView>(R.id.search_view)
         searchView.setIconifiedByDefault(false)
         searchView.imeOptions = 6

@@ -29,21 +29,32 @@
             android:id="@+id/tv_info1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="request single permission" />
+            android:text="request single permission"
+            android:textColor="@color/white" />
 
         <TextView
             android:id="@+id/tv_info2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="request multiple permission" />
+            android:text="request multiple permission"
+            android:textColor="@color/white" />
 
         <TextView
             android:id="@+id/tv_info3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="go second activity" />
+            android:text="go second activity"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_info4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="go permission manager"
+            android:textColor="@color/white" />
     </androidx.appcompat.widget.LinearLayoutCompat>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
